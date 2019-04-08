@@ -1,4 +1,5 @@
-# Do you constantly have to google how to do a specific thing with ggplot2::theme()? I do.
+# Do you constantly have to google how to do a specific thing with ggplot2::theme()?
+## I do.
 
 That's why I created a package with nicely named functions to carry out various tasks that I always forget how to do!
 
