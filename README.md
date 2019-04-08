@@ -1,6 +1,4 @@
-# Make Life Easy Again -- ggeasy
-
-Do you constantly have to google how to remove the legend from a ggplot plot? I do.
+# Do you constantly have to google how to remove the legend from a ggplot plot? I do.
 
 Say goodbye to
 
