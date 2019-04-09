@@ -6,9 +6,7 @@
 #' @examples plt + no_legend()
 no_legend <- function() {
 
-  require(ggplot2)
-
-  theme(legend.position = "none")
+  ggplot2::theme(legend.position = "none")
 
 }
 
@@ -20,10 +18,8 @@ no_legend <- function() {
 #' @examples plt + no_ticks()
 no_ticks <- function() {
 
-  require(ggplot2)
-
-  theme(axis.ticks = element_blank(),
-        axis.text = element_blank())
+  ggplot2::theme(axis.ticks = ggplot2::element_blank(),
+        axis.text = ggplot2::element_blank())
 
 }
 
@@ -35,9 +31,7 @@ no_ticks <- function() {
 #' @examples plt + no_axis_labels()
 no_axis_labels <- function() {
 
-  require(ggplot2)
-
-  theme(axis.title = element_blank())
+  ggplot2::theme(axis.title = ggplot2::element_blank())
 
 }
 
@@ -49,8 +43,6 @@ no_axis_labels <- function() {
 #' @examples plt + no_grid()
 no_grid <- function() {
 
-  require(ggplot2)
-
-  theme(panel.grid = element_blank())
+  ggplot2::theme(panel.grid = ggplot2::element_blank())
 
 }
